@@ -7,4 +7,4 @@ promedio = suma / 3
 print(f"""Calificación 1: {calificacion1})
 Calificacion 2 : {calificacion2}
 Calificacion 3 : {calificacion3}
-promedio {promedio:.0f}""")
+{"promedio:":<15} {promedio:>3.0f}""")
